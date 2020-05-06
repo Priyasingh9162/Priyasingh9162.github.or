@@ -1,14 +1,23 @@
 
-		#one{
-			text-align: center;
-			background-color: yellow;
-		}
+		
+			
 		body{
 			background-color: yellow;
+		}
+		#two{
+			text-align: center;
+			font-style: italic;
+
+
 		}
 		#three{
 			
 			margin-left: 550px;
+			margin-left: 50px;
+			margin-top: 50px;
+			margin-right: 50px;
+			margin-bottom: 50px;
+			
 		}
 		@media screen and (max-width: 1200px){
 			body{
@@ -16,7 +25,21 @@
 			}
 		}
 
-
-
-
-	
+		#on{
+			font-style: italic;
+			margin-left: 50px;
+			border-width: 5px;
+			border-style: solid;
+			border-color: white;}
+			
+			#of
+			{
+				float: right;
+				margin-right: 50px;
+				margin-top: 50px;
+			}
+			#of ul li a{
+				text-decoration: none;
+				display: block;
+				
+			}
